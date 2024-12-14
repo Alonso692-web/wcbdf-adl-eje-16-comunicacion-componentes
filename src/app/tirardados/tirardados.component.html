@@ -1,0 +1,14 @@
+<div class="container text-center" style="padding: 40px;">
+    <h1>Ejercicio 16</h1>
+    <p>Soy el componente tirar dados</p>
+    <div>
+        <app-dado valor="{{ n1 }}"/>&nbsp;
+        <app-dado valor="{{ n2 }}" />&nbsp;
+        <app-dado valor="{{ n3 }}" />&nbsp;
+    </div>
+
+    <div style="padding: 40px;">
+        <p>Resultado : {{ resultado }}</p>
+        <button type="button" (click)="tirar()" class="btn btn-success">Tirar dados</button>
+    </div>
+</div>
